@@ -11,10 +11,10 @@ plt.bar(X, -Y2, facecolor='#ff9999', edgecolor='white')
 
 for x, y in zip(X, Y1):
     # ha : horizontal alignment
-    plt.text(x + 0.04, y + 0.05, '%.2f' % y, ha='center',va='bottom')
+    plt.text(x + 0.04, y + 0.05, '%.2f' % y, ha='center', va='bottom')
 
 for x, y in zip(X, Y2):
-    plt.text(x+0.04, -(y+0.05), '-%.2f' % y, ha='center',va='top')
+    plt.text(x + 0.04, -(y + 0.05), '-%.2f' % y, ha='center', va='top')
 
 plt.xlim(-.5, n)
 plt.xticks(())

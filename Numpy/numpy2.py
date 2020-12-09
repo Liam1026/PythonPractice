@@ -9,7 +9,7 @@ b = np.zeros((3, 4))
 print(b)
 
 
-# 3 row 4 col, num = 1 
+# 3 row 4 col, num = 1
 c = np.ones((3, 4), dtype=np.int)
 print(c)
 
