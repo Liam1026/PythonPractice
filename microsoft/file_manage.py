@@ -1,0 +1,6 @@
+stream = open('manage.txt', 'wt')
+stream.write('Demo!')
+stream.seek(0)
+stream.write('Cool')
+stream.flush()
+stream.close()
